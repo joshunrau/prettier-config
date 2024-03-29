@@ -57,6 +57,7 @@
   "release": {
     "extends": [
       "@joshunrau/semantic-release-config"
-    ]
+    ],
+    "repositoryUrl": "https://github.com/joshunrau/prettier-config.git"
   }
 }
