@@ -9,7 +9,7 @@
   "homepage": "https://github.com/joshunrau/prettier-config/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/joshunrau/prettier-config/.git"
+    "url": "https://github.com/joshunrau/prettier-config.git"
   },
   "bugs": {
     "url": "https://github.com/joshunrau/prettier-config/issues"
@@ -39,13 +39,20 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@joshunrau/eslint-config": "^4.0.2",
+    "@joshunrau/semantic-release-config": "^0.0.1",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "semantic-release": "^23.0.6"
   },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "extends": [
+      "@joshunrau/semantic-release-config"
     ]
   }
 }
