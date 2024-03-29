@@ -2,13 +2,26 @@
   "name": "@joshunrau/prettier-config",
   "type": "module",
   "version": "0.0.1",
+  "description": "Prettier configuration for my personal projects",
   "author": "Joshua Unrau",
   "license": "MIT",
+  "homepage": "https://github.com/joshunrau/prettier-config/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshunrau/prettier-config/.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshunrau/prettier-config/issues"
+  },
   "keywords": [
-    "prettier"
+    "prettier",
+    "prettier-config"
   ],
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
   "peerDependencies": {
     "prettier": "^3.2.5",
     "prettier-plugin-astro": "^0.13.0"
@@ -19,7 +32,7 @@
     }
   },
   "devDependencies": {
-    "@joshunrau/eslint-config": "^4.0.2",
+    "@joshunrau/prettier-config": "^4.0.2",
     "eslint": "^8.57.0"
   }
 }
