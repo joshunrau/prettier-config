@@ -10,7 +10,13 @@
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "peerDependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
+  },
+  "peerDependenciesMeta": {
+    "prettier-plugin-astro": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@joshunrau/eslint-config": "^4.0.2",

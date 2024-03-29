@@ -1,3 +1,9 @@
-import type { Options } from 'prettier';
+export type PrettierConfig = import('prettier').Options & {
+  overrides?: any[];
+};
 
-export function createConfig(): Options;
+export type Options = {
+  astro?: boolean;
+};
+
+export function createConfig(options?: Options): PrettierConfig;
