@@ -1,0 +1,19 @@
+{
+  "name": "@joshunrau/prettier-config",
+  "type": "module",
+  "version": "0.0.1",
+  "author": "Joshua Unrau",
+  "license": "MIT",
+  "keywords": [
+    "prettier"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "devDependencies": {
+    "@joshunrau/eslint-config": "^4.0.2",
+    "eslint": "^8.57.0"
+  }
+}
