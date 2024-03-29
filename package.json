@@ -9,7 +9,7 @@
   "homepage": "https://github.com/joshunrau/prettier-config/#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshunrau/prettier-config/.git"
+    "url": "https://github.com/joshunrau/prettier-config/.git"
   },
   "bugs": {
     "url": "https://github.com/joshunrau/prettier-config/issues"
