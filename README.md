@@ -14,6 +14,7 @@ pnpm add -D @joshunrau/prettier-config prettier
 import { createConfig } from '@joshunrau/prettier-config';
 
 export default createConfig({
-  astro: false // requires prettier-plugin-astro
+  astro: false, // requires prettier-plugin-astro
+  tailwindcss: false // requires prettier-plugin-tailwindcss
 });
 ```

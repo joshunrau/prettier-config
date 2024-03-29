@@ -26,5 +26,8 @@ export function createConfig(options) {
       }
     });
   }
+  if (options?.tailwindcss) {
+    config.plugins?.push('prettier-plugin-tailwindcss');
+  }
   return config;
 }
