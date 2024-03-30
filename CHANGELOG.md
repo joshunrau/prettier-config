@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/joshunrau/prettier-config/compare/v0.2.0...v0.2.1) (2024-03-30)
+
+
+### Bug Fixes
+
+* add husky as optional peer ([8786c7e](https://github.com/joshunrau/prettier-config/commit/8786c7e69317c809860107b949986ef3e68dc718))
+
 ## [0.2.0](https://github.com/joshunrau/prettier-config/compare/v0.1.1...v0.2.0) (2024-03-30)
 
 
