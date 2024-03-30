@@ -20,7 +20,11 @@
   ],
   "main": "src/index.js",
   "types": "src/index.d.ts",
+  "bin": {
+    "prettier-pre-commit": "./bin/prettier-pre-commit"
+  },
   "files": [
+    "bin",
     "src"
   ],
   "scripts": {
