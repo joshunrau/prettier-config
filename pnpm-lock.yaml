@@ -6,10 +6,10 @@ settings:
 
 dependencies:
   prettier-plugin-astro:
-    specifier: ^0.13.0
+    specifier: 0.x
     version: 0.13.0
   prettier-plugin-tailwindcss:
-    specifier: ^0.5.13
+    specifier: 0.x
     version: 0.5.13(prettier-plugin-astro@0.13.0)(prettier@3.2.5)
 
 devDependencies:

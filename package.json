@@ -31,11 +31,15 @@
     "prepare": "husky"
   },
   "peerDependencies": {
-    "prettier": "^3.2.5",
-    "prettier-plugin-astro": "^0.13.0",
-    "prettier-plugin-tailwindcss": "^0.5.13"
+    "husky": "9.x",
+    "prettier": "3.x",
+    "prettier-plugin-astro": "0.x",
+    "prettier-plugin-tailwindcss": "0.x"
   },
   "peerDependenciesMeta": {
+    "husky": {
+      "optional": true
+    },
     "prettier-plugin-astro": {
       "optional": true
     },
