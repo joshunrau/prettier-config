@@ -7,6 +7,11 @@ permissions:
   contents: read
 jobs:
   release:
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
     uses: joshunrau/semantic-release-config/.github/workflows/release.yaml@main
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
