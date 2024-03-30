@@ -31,3 +31,5 @@ export function createConfig(options) {
   }
   return config;
 }
+
+export default createConfig();
