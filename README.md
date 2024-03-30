@@ -18,3 +18,13 @@ export default createConfig({
   tailwindcss: false // requires prettier-plugin-tailwindcss
 });
 ```
+
+## Git Hook (Optional)
+
+**.husky/pre-commit**
+
+```sh
+#!/bin/sh
+
+pnpm exec prettier-pre-commit
+```
