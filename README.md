@@ -8,6 +8,18 @@ pnpm add -D @joshunrau/prettier-config prettier
 
 ## Usage
 
+### Default Settings
+
+**package.json**
+
+```json
+{
+  "prettier": "@joshunrau/prettier-config"
+}
+```
+
+### Customized Settings
+
 **prettier.config.js**
 
 ```javascript
