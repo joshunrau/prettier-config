@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^4.0.2
     version: 4.0.2(eslint@8.57.0)(typescript@5.4.3)
   '@joshunrau/semantic-release':
-    specifier: ^0.0.2
-    version: 0.0.2(typescript@5.4.3)
+    specifier: ^0.0.3
+    version: 0.0.3(typescript@5.4.3)
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -370,9 +370,9 @@ packages:
       - vue-eslint-parser
     dev: true
 
-  /@joshunrau/semantic-release@0.0.2(typescript@5.4.3):
+  /@joshunrau/semantic-release@0.0.3(typescript@5.4.3):
     resolution:
-      { integrity: sha512-MJWAAaTbm4u7sHeifhWcU9mAe3jrqYE21uV8gPYrE5KAABuUJATeSOHe1BSElfjggjqrCYmC39sw/r6G6aZKvQ== }
+      { integrity: sha512-k83u3XV1JO76RrE9GZD3BLNlEs/r7Lf7oYaYZtNvxvbKWyDH+Adyf3cEfZxHPfaLeizun9Yr4dKrXWVVI41lOg== }
     hasBin: true
     dependencies:
       '@semantic-release/changelog': 6.0.3(semantic-release@23.0.6)
