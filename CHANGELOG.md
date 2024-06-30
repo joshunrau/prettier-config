@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/joshunrau/prettier-config/compare/v0.3.0...v0.4.0) (2024-06-30)
+
+
+### Features
+
+* add support for svelte ([4ef9c80](https://github.com/joshunrau/prettier-config/commit/4ef9c80b528631a3ea600101b57ea1133eccadd7))
+
 ## [0.3.0](https://github.com/joshunrau/prettier-config/compare/v0.2.1...v0.3.0) (2024-03-30)
 
 
