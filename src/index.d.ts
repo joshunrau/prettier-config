@@ -4,6 +4,7 @@ export type PrettierConfig = import('prettier').Options & {
 
 export type Options = {
   astro?: boolean;
+  svelte?: boolean;
   tailwindcss?: boolean;
 };
 

@@ -28,12 +28,14 @@
     "src"
   ],
   "scripts": {
+    "format": "prettier --write src",
     "prepare": "husky"
   },
   "peerDependencies": {
     "husky": "9.x",
     "prettier": "3.x",
     "prettier-plugin-astro": "0.x",
+    "prettier-plugin-svelte": "3.x",
     "prettier-plugin-tailwindcss": "0.x"
   },
   "peerDependenciesMeta": {
@@ -41,6 +43,9 @@
       "optional": true
     },
     "prettier-plugin-astro": {
+      "optional": true
+    },
+    "prettier-plugin-svelte": {
       "optional": true
     },
     "prettier-plugin-tailwindcss": {

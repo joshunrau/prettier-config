@@ -27,6 +27,7 @@ import { createConfig } from '@joshunrau/prettier-config';
 
 export default createConfig({
   astro: false, // requires prettier-plugin-astro
+  svelte: false, // requires prettier-plugin-svelte
   tailwindcss: false // requires prettier-plugin-tailwindcss
 });
 ```

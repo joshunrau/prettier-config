@@ -9,7 +9,7 @@
  * @returns {PrettierConfig}
  */
 export function createConfig(options) {
-  /** @type {PrettierConfig} */
+  /** @type {PrettierConfig & { plugins: any[], overrides: any[] }} */
   const config = {
     overrides: [],
     plugins: [],
@@ -18,16 +18,15 @@ export function createConfig(options) {
     trailingComma: 'none'
   };
   if (options?.astro) {
-    config.plugins?.push('prettier-plugin-astro');
-    config.overrides?.push({
-      files: '*.astro',
-      options: {
-        parser: 'astro'
-      }
-    });
+    config.plugins.push('prettier-plugin-astro');
+    config.overrides.push({ files: '*.astro', options: { parser: 'astro' } });
+  }
+  if (options?.svelte) {
+    config.plugins.push('prettier-plugin-svelte');
+    config.overrides.push({ files: '*.svelte', options: { parser: 'svelte' } });
   }
   if (options?.tailwindcss) {
-    config.plugins?.push('prettier-plugin-tailwindcss');
+    config.plugins.push('prettier-plugin-tailwindcss');
   }
   return config;
 }
